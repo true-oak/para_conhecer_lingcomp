@@ -19,7 +19,7 @@ def limpar(lista):
 
 
 
-texto = ler(r'C:\Users\tkrhy\Documents\Python\Para_Conhecer_LingComp\Ubirajara.txt')
+texto = ler('Ubirajara.txt')
 palavras_sujas = texto.split()
 palavras = limpar(palavras_sujas)
 
