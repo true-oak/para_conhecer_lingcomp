@@ -50,7 +50,7 @@ vocab = set()
 
 ## PREPARAÇÃO DOS DADOS E CONTAGEM DE ATRIBUTOS
 # para cada linha no corpus de treino, transforma a linha numa string com str()
-corpus_treino = open(r'C:\Users\tkrhy\Documents\Python\Para_Conhecer_LingComp\cap4_naive_bayes\corpus_treino.txt', 'r', encoding='utf-8')
+corpus_treino = open('corpus_treino.txt', 'r', encoding='utf-8')
 
 for dado in corpus_treino:
     classe = dado[0]    # extrai a classificação (elemento [0] da linha, 0 ou 1)
