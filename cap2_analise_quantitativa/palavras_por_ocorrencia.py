@@ -21,7 +21,7 @@ def ocorrencias(lista_palavras):
         dicionario[p] += 1
     return dicionario
 
-texto = ler(r'C:\Users\tkrhy\Documents\Python\Para_Conhecer_LingComp\Ubirajara.txt')
+texto = ler('Ubirajara.txt')
 palavras = texto.split()
 palavras_limpas = limpar(palavras)
 
