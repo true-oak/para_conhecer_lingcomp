@@ -6,7 +6,7 @@ def ler(nome_arq):
 
     return conteudo_arq
 
-texto = ler(r'C:\Users\tkrhy\Documents\Python\Para_Conhecer_LingComp\Ubirajara.txt')
+texto = ler('Ubirajara.txt')
 
 def concordanciador(alvo, texto):
     texto = texto.replace('\n', ' ')
